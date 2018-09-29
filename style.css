@@ -40,7 +40,7 @@ body {
   section {
     background: #ebebeb;
     float: left;
-    width: 60%;
+    width: 55%;
     padding-top: 50px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -53,8 +53,8 @@ body {
 
   aside {
     background: #ebebeb;
-    float: right;
-    width: 40%;
+    float: left;
+    width: 35%;
     padding-top: 10px;
     padding-bottom: 50px;
     padding-left: 10px;
@@ -65,7 +65,7 @@ body {
     margin-bottom: 10px;
   }
 
-  .clearfix::before {
+  .clearfix::after {
     content: "";
     clear: both;
     display: block;
